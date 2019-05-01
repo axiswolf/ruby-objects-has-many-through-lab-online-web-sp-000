@@ -15,6 +15,7 @@ class Artist
   def new_song(name, genre)
     # needs an instance method, #new_song that takes in an argument of a name and genre creates a new song.
     # That song should know that it belongs to the artist.
+    genre.artist = self
   end
   #def songs
     # has many songs
