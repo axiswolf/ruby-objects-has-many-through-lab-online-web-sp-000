@@ -10,10 +10,4 @@ class Appointment
   def self.all
     @@all
   end
-  def patient
-    # patient belongs to patient
-  end
-  def doctor
-    # doctor belongs to doctor
-  end
 end
