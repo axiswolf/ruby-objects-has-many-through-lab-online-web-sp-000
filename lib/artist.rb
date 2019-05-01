@@ -6,7 +6,6 @@ class Artist
   # An artist is initialized with a name and is saved in the @@all array
   def initialize(name)
     @name = name
-    @songs = []
     @@all << self
   end
   def self.all
