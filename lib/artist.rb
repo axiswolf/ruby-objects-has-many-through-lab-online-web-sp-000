@@ -24,7 +24,7 @@ class Artist
   end
   def genres
     #has many genres, through songs
-    songs.map do 
+    songs.map do
       songs.genre
     end
   end
