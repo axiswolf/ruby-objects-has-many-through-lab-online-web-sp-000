@@ -16,5 +16,8 @@ class Patient
   end
   def doctors
     #has many doctors through appointments
+    appointments.map do |appt|
+      appt.doctor
+    end
   end
 end
