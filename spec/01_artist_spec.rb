@@ -28,7 +28,7 @@ describe "Artist" do
       ninety_nine_problems = jay_z.new_song("Ninety Nine Problems", rap)
 
       expect(jay_z.songs).to include(ninety_nine_problems)
-      #expect(ninety_nine_problems.artist).to eq(jay_z)
+      expect(ninety_nine_problems.artist).to eq(jay_z)
     end
   end
 
